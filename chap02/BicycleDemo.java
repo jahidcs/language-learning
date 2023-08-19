@@ -18,6 +18,7 @@ public class BicycleDemo {
         bike2.applyBreak(2);
         bike2.changeGear(2);
         bike2.printStates();
+
         System.out.println("\n");
 
         bike2.speedUp(5);
