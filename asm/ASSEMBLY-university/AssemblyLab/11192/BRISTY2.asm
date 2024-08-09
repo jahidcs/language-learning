@@ -1,0 +1,22 @@
+.MODEL SMALL  
+.STACK 100H
+.DATA
+
+.CODE
+MAIN PROC
+    MOV DI,1000H
+    MOV AH,01H
+    STRINGinput:
+    INT 21H 
+    CMP AL,0DH
+    JE END
+    MOV [DI],AL
+    INC DI
+    JMP STRINGinput
+    
+    END:
+    MOV AH, 4CH
+    INT 21H            
+
+MAIN ENDP
+END MAIN
