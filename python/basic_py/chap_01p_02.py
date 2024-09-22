@@ -23,3 +23,33 @@ parameters:
     - file (get file objects)
     - flush (True/False)
 '''
+
+# Python Operators
+"""
+Python Operators
+    - Arithmatic Operators (+, -, *, /, //, %)
+    - Relational Operators (>, <, ==, !=, >=, <=)
+    - Logical Operators (and, or, not)
+    - Bit-wise Operator
+        - & Bitwise AND
+        - | Bitwise OR
+        - ~ Bitwise NOT
+        - ^ Bitwise XOR
+        - >> Bitwise Right shift
+        - << Bitwise Left Shift
+    - In place Operators (=, +=, -=, *=, /=, %=, //=, **=, &=, ^=, >>=, <<=, |=)
+    - Identity Operators
+    - Membership Operators
+"""
+
+print("Arithmatic Operators")
+a, b = 1, 2
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a // b)
+print(a % b)
+
+print("Relational Operator")
